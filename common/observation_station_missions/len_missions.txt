@@ -1,0 +1,374 @@
+
+@advance_progress_1 = 1 # about 30 years
+@advance_progress_2 = 1 # about 30 years
+@advance_progress_3 = 1 # about 30 years
+@advance_progress_4 = 1 # about 20 years
+@advance_progress_5 = 1 # about 20 years
+@advance_progress_6 = 1 # about 15 years
+@advance_progress_7 = 1 # about 15 years
+@advance_progress_8 = 1 # about 10 years, to atom
+@advance_progress_9 = 1 # about 5 years, to space
+# @advance_progress_1 = 0.0028 # about 30 years
+# @advance_progress_2 = 0.0028 # about 30 years
+# @advance_progress_3 = 0.0028 # about 30 years
+# @advance_progress_4 = 0.004  # about 20 years
+# @advance_progress_5 = 0.004  # about 20 years
+# @advance_progress_6 = 0.0055 # about 15 years
+# @advance_progress_7 = 0.0055 # about 15 years
+# @advance_progress_8 = 0.0083 # about 10 years, to atom
+# @advance_progress_9 = 0.016  # about 5 years, to space
+# @advance_progress = 0.9    # about a month, debug only
+
+@advance_soc_cost = 5
+@advance_nrg_cost = 5
+# instigate war
+
+# Stone Age
+len_society_advance_1 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_1
+	completion_event = len_advance_society.1
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = stone_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Bronze Age
+len_society_advance_2 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_2
+	completion_event = len_advance_society.2
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = bronze_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Iron Age
+len_society_advance_3 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_3
+	completion_event = len_advance_society.3
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = iron_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Late medieval Age
+len_society_advance_4 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_4
+	completion_event = len_advance_society.4
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = late_medieval_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Renaissance
+len_society_advance_5 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_5
+	completion_event = len_advance_society.5
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = renaissance_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Steam Age
+len_society_advance_6 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_6
+	completion_event = len_advance_society.6
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = steam_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Industrial Age
+len_society_advance_7 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_7
+	completion_event = len_advance_society.7
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = industrial_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Machine Age
+len_society_advance_8 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_8
+	completion_event = len_advance_society.8
+
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = machine_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
+
+# Atomic Age
+len_society_advance_9 = {
+	icon = "GFX_fleet_task_technological_enlightenment_action"
+	small_icon = 6
+	
+	resources = {
+		category = station_observer_missions
+		upkeep = {
+			society_research = @advance_soc_cost
+			energy = @advance_nrg_cost
+		}
+	}
+
+	monthly_progress = @advance_progress_9
+	completion_event = len_advance_society.9
+	
+	potential = {
+		FROM = {
+			exists = owner
+			owner = {
+				has_country_flag = atomic_age
+			}
+		}
+	}
+
+	valid = {
+		has_technology = len_tech_society_uplift
+		NOR = {
+			has_valid_civic = civic_machine_terminator
+			has_valid_civic = civic_fanatic_purifiers
+			has_valid_civic = civic_hive_devouring_swarm
+		}
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
