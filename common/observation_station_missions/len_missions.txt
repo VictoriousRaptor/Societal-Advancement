@@ -1,23 +1,23 @@
 
-@advance_progress_1 = 1 # about 30 years
-@advance_progress_2 = 1 # about 30 years
-@advance_progress_3 = 1 # about 30 years
-@advance_progress_4 = 1 # about 20 years
-@advance_progress_5 = 1 # about 20 years
-@advance_progress_6 = 1 # about 15 years
-@advance_progress_7 = 1 # about 15 years
-@advance_progress_8 = 1 # about 10 years, to atom
-@advance_progress_9 = 1 # about 5 years, to space
-# @advance_progress_1 = 0.0028 # about 30 years
-# @advance_progress_2 = 0.0028 # about 30 years
-# @advance_progress_3 = 0.0028 # about 30 years
-# @advance_progress_4 = 0.004  # about 20 years
-# @advance_progress_5 = 0.004  # about 20 years
-# @advance_progress_6 = 0.0055 # about 15 years
-# @advance_progress_7 = 0.0055 # about 15 years
-# @advance_progress_8 = 0.0083 # about 10 years, to atom
-# @advance_progress_9 = 0.016  # about 5 years, to space
-# @advance_progress = 0.9    # about a month, debug only
+# @advance_progress_1 = 1 # 
+# @advance_progress_2 = 1 # 
+# @advance_progress_3 = 1 # 
+# @advance_progress_4 = 1 # 
+# @advance_progress_5 = 1 # 
+# @advance_progress_6 = 1 # 
+# @advance_progress_7 = 1 # 
+# @advance_progress_8 = 1 # 
+# @advance_progress_9 = 1 # 
+@advance_progress_1 = 0.0055 # about 15 years
+@advance_progress_2 = 0.0055 # about 15 years
+@advance_progress_3 = 0.0055 # about 15 years
+@advance_progress_4 = 0.0083 # about 10 years
+@advance_progress_5 = 0.0083 # about 10 years
+@advance_progress_6 = 0.0083 # about 10 years
+@advance_progress_7 = 0.0083 # about 10 years
+@advance_progress_8 = 0.0083 # about 10 years, to atom
+@advance_progress_9 = 0.016  # about 5 years, to space
+
 
 @advance_soc_cost = 5
 @advance_nrg_cost = 5
