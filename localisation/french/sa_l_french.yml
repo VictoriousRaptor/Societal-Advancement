@@ -1,4 +1,4 @@
-﻿l_simp_chinese:
+﻿l_french:
 
  # ##################################
  # Technologies
@@ -21,10 +21,10 @@
  len_create_pre_sentient_desc:0 "Allows our scientists to engineer pre-sapient species on uncolonised worlds."
  len_create_pre_ftl:0 "Create Primitives"
  len_create_pre_ftl_desc:0 "Allows our scientists to engineer primitive species on uncolonised worlds."
- feature_len_society_uplift:0 "时代前进"
- feature_len_society_uplift_desc:0 "允许观测站把土著提升到下个时代"
- len_society_uplift:0 "时代前进"
- len_society_uplift_desc:0 "允许观测站把土著提升到下个时代"
+ feature_len_society_uplift:0 "Advance primitive societies"
+ feature_len_society_uplift_desc:0 "Allows observation missions to advance primitive species to next stage of evolution."
+ len_society_uplift:0 "Advance primitive societies"
+ len_society_uplift_desc:0 "Allows observation missions to advance primitive species to next stage of evolution."
  
  # ##################################
  # Traits

@@ -1,7 +1,10 @@
-name="Societal Advancement"
+version="1.0"
 tags={
-	"Technologies"
+	"Utilities"
 	"Gameplay"
+	"Species"
+	"Events"
 }
-picture="mod.jpg"
-
+name="Societal Advancement (fixed)"
+supported_version="2.7.2"
+picture="thumbnail.png"
