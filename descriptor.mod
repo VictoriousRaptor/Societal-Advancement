@@ -7,5 +7,5 @@ tags={
 }
 name="Societal Advancement (fixed)"
 picture="thumbnail.png"
-supported_version="2.7.2"
+supported_version="2.8.*"
 remote_file_id="2247594997"
