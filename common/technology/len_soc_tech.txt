@@ -4,39 +4,48 @@ len_tech_society_uplift = {
 	area = society
 	tier = 3
 	category = { statecraft }	
-	prerequisites = { "tech_epigenetic_triggers" }
+	prerequisites = { "tech_genome_mapping" }
 	weight = @tier3weight2
 	
 	feature_flags = {
 		len_society_uplift
 	}
-	
-	
 
+	potential = {
+		OR = {
+			has_met_primitives = yes
+			has_country_flag = found_presapients
+		}
+	}
+	
 	# modifier = {
 	# 	tile_resource_society_research_mult = 0.10
 	# }
 	
 	weight_modifier = {
 		factor = 1.5
-		
 		modifier = {
 			factor = 1.25
 			research_leader = {
 				area = society
 				has_trait = "leader_trait_expertise_statecraft"
 			}
+			is_ai = no
+		}
+		modifier = {
+			factor = 0
+			is_ai = yes
 		}
 	}
 	
 	ai_weight = {
 		
 		modifier = {
-			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_statecraft"
-			}
+			factor = 0
+			# research_leader = {
+			# 	area = society
+			# 	has_trait = "leader_trait_expertise_statecraft"
+			# }
 		}
 	}
 }
