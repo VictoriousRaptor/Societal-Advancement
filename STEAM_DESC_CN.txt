@@ -1,4 +1,4 @@
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851854787]Societal Advancement[/url]的修复版，修复了bug并兼容3.3.*。
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851854787]Societal Advancement[/url]的修复版，修复了bug并兼容3.4.*。
 
 [h2]功能[/h2]
 

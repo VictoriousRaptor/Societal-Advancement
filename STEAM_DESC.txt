@@ -1,4 +1,4 @@
-An updated version of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851854787]Societal Advancement[/url]. Fixed known issues and compatible with new versions. [b]Compatible with 3.3.*.[/b]
+An updated version of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1851854787]Societal Advancement[/url]. Fixed known issues and compatible with new versions. [b]Compatible with 3.4.*.[/b]
 
 [h2]Features[/h2]
 
