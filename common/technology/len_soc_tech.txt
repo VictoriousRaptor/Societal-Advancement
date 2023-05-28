@@ -1,51 +1,39 @@
-len_tech_society_uplift = {
+tech_leng_regress_civ = {
 	icon = "tech_adaptive_bureaucracy"
 	cost = @tier3cost2
 	area = society
 	tier = 3
-	category = { statecraft }	
-	prerequisites = { "tech_genome_mapping" }
-	weight = @tier3weight2
-	
-	feature_flags = {
-		len_society_uplift
-	}
+	category = { statecraft }
 
+	prerequisites = {
+		tech_eco_simulation
+		tech_genome_mapping
+		tech_society_1
+	}
+	weight = @tier3weight2
+	# gateway = biological
 	potential = {
+		is_ai = no
+		# 	is_regular_empire = yes
 		OR = {
 			has_met_primitives = yes
 			has_country_flag = found_presapients
 		}
 	}
-	
-	# modifier = {
-	# 	tile_resource_society_research_mult = 0.10
-	# }
-	
+	feature_flags = { life_engineering }
 	weight_modifier = {
 		factor = 1.5
 		modifier = {
 			factor = 1.25
-			research_leader = {
-				area = society
-				has_trait = "leader_trait_expertise_statecraft"
-			}
-			is_ai = no
+			has_trait_in_council = { TRAIT = leader_trait_expertise_biology }
 		}
 		modifier = {
-			factor = 0
-			is_ai = yes
+			factor = 1.25
+			has_trait_in_council = { TRAIT = leader_trait_expertise_statecraft }
 		}
+		modifier = { factor = 0 is_ai = yes }
 	}
-	
 	ai_weight = {
-		
-		modifier = {
-			factor = 0
-			# research_leader = {
-			# 	area = society
-			# 	has_trait = "leader_trait_expertise_statecraft"
-			# }
-		}
+		factor = 0
 	}
 }

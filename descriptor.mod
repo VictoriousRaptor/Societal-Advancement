@@ -1,4 +1,4 @@
-version="1.1"
+version="1.2"
 tags={
 	"Utilities"
 	"Gameplay"
@@ -7,5 +7,5 @@ tags={
 }
 name="Societal Advancement (fixed)"
 picture="thumbnail.png"
-supported_version="3.4.*"
+supported_version="3.8.*"
 remote_file_id="2247594997"

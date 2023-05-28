@@ -1,0 +1,32 @@
+﻿l_french:
+ # ##################################
+ # Technologies
+ # ##################################
+ tech_leng_regress_civ:0 "Society Uplifting"
+ tech_leng_regress_civ_desc:0 "Subtle infiltration of primitive societies will allow us to artificially speed up their technological development."
+ # ##################################
+ # Feature Flags
+ # ##################################
+ feature_life_engineering:0 "Advance primitive societies"
+ feature_life_engineering_desc:0 "Allows observation missions to advance primitive species to next stage of evolution."
+ # ##################################
+ # Observation Missions
+ # ##################################
+ mission_len_society_advance_1:0 "Advance Society"
+ mission_len_society_advance_1_desc:0 "Our scientists teach the species so that the primitives can reach the next stage in their evolution."
+ mission_len_society_advance_2:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_2_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_3:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_3_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_4:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_4_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_5:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_5_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_6:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_6_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_7:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_7_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_8:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_8_desc:0 "$mission_len_society_advance_1_desc$"
+ mission_len_society_advance_9:0 "$mission_len_society_advance_1$"
+ mission_len_society_advance_9_desc:0 "$mission_len_society_advance_1_desc$"

@@ -1,25 +1,19 @@
-﻿l_polish:
-
+﻿l_simp_chinese:
  # ##################################
  # Technologies
  # ##################################
- 
- len_tech_society_uplift:0 "Society Uplifting"
- len_tech_society_uplift_desc:0 "Subtle infiltration of primitive societies will allow us to artificially speed up their technological development."
- 
+ tech_leng_regress_civ:0 "时代前进"
+ tech_leng_regress_civ_desc:0 "对原始文明的悄悄渗透能够让我们人为加速他们的科技发展。"
  # ##################################
  # Feature Flags
  # ##################################
- 
- feature_len_society_uplift:0 "Advance primitive societies"
- feature_len_society_uplift_desc:0 "Allows observation missions to advance primitive species to next stage of evolution."
- 
+ feature_life_engineering:0 "时代前进"
+ feature_life_engineering_desc:0 "允许观测站把土著提升到下个时代"
  # ##################################
  # Observation Missions
  # ##################################
- 
- mission_len_society_advance_1:0 "Advance Society"
- mission_len_society_advance_1_desc:0 "Our scientists teach the species so that the primitives can reach the next stage in their evolution."
+ mission_len_society_advance_1:0 "时代前进"
+ mission_len_society_advance_1_desc:0 "我们的科学家在暗中把原始文明推向下一个时代。"
  mission_len_society_advance_2:0 "$mission_len_society_advance_1$"
  mission_len_society_advance_2_desc:0 "$mission_len_society_advance_1_desc$"
  mission_len_society_advance_3:0 "$mission_len_society_advance_1$"
