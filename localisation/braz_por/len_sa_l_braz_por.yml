@@ -2,8 +2,8 @@
  # ##################################
  # Technologies
  # ##################################
- tech_leng_regress_civ:0 "Society Uplifting"
- tech_leng_regress_civ_desc:0 "Subtle infiltration of primitive societies will allow us to artificially speed up their technological development."
+ tech_leng_society_uplift:0 "Society Uplifting"
+ tech_leng_society_uplift_desc:0 "Subtle infiltration of primitive societies will allow us to artificially speed up their technological development."
  # ##################################
  # Feature Flags
  # ##################################

@@ -1,4 +1,4 @@
-tech_leng_regress_civ = {
+tech_leng_society_uplift = {
 	icon = "tech_adaptive_bureaucracy"
 	cost = @tier3cost2
 	area = society

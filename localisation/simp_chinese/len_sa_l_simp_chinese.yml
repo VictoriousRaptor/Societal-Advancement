@@ -2,8 +2,8 @@
  # ##################################
  # Technologies
  # ##################################
- tech_leng_regress_civ:0 "时代前进"
- tech_leng_regress_civ_desc:0 "对原始文明的悄悄渗透能够让我们人为加速他们的科技发展。"
+ tech_leng_society_uplift:0 "时代前进"
+ tech_leng_society_uplift_desc:0 "对原始文明的悄悄渗透能够让我们人为加速他们的科技发展。"
  # ##################################
  # Feature Flags
  # ##################################
